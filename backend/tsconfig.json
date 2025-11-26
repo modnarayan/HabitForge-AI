@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "resolvePackageJsonExports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2023",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@habitforge/database": [
+        "libs/database/src"
+      ],
+      "@habitforge/database/*": [
+        "libs/database/src/*"
+      ],
+      "@habitforge/kafka": [
+        "libs/kafka/src"
+      ],
+      "@habitforge/kafka/*": [
+        "libs/kafka/src/*"
+      ],
+      "@habitforge/logger": [
+        "libs/logger/src"
+      ],
+      "@habitforge/logger/*": [
+        "libs/logger/src/*"
+      ],
+      "@habitforge/middleware": [
+        "libs/middleware/src"
+      ],
+      "@habitforge/middleware/*": [
+        "libs/middleware/src/*"
+      ]
+    }
+  }
+}
